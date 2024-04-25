@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon de coiffure</title>
+    <link rel="fontawesome" href="fontawesome-free-6.5.1-web.zip">
+    <link rel="catalogue" href="catalogue.html">
+    <style>
+        body{
+            margin-top: 0px;
+            height: 100vh;
+        }
+        .header{
+            height:15vh;
+            top:0px;
+            width: 1fr;
+            display: flex;
+            background: linear-gradient(27deg,brown,black);
+            text-align: center;
+            justify-content: center;
+            border:black;
+            position: relative;
+        }
+        .entete{
+            color: antiquewhite;
+            margin-left: 150px;
+            position: absolute;
+            margin-left: 100px;
+        }
+        .home{
+            width: 20px;
+            height: 30px;
+            background-color: bisque;
+            margin-right: 5px;
+        }
+        .bell{
+            width: 20px;
+            height: 30px;
+            background-color: bisque;
+            margin-left: 10px;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            display: flex;
+			background-reapeat:no reapeat;
+        }
+        .girls{
+            display: grid;
+            grid-template-columns: repeat(10,1fr,1fr);
+            grid-template-rows: repeat(12,1fr,1fr);
+        }
+        .boys{
+            display: flex;
+        }
+        .pic3{
+            margin-top:180px;
+        }
+        .mid{
+            margin-top:180px;
+        }
+        .menu{
+            margin-left: 1060px;
+            margin-top: 15px;
+            display: flex;
+            position: relative;
+        }
+        .titre{
+            grid-area: 1/4/2/7;
+        }
+        .pic4{
+            grid-area: 1/7/2/8;
+        }
+       .pic5{
+            grid-area: 1/8/2/10;
+       }
+       .pic6{
+            grid-area: 2/3/3/5;
+       }
+       .pic7{
+        grid-area: 2/5/3/7;
+       }
+       .infemmes{
+        grid-area: 2/1/3/3;
+       }
+       .inhommes{
+        grid-area: 2/8/3/11;
+       }
+       .login{
+        margin-left: 5px;
+        height: 20px;
+        width: 100px;
+        background-color: red;
+        color: beige;
+       }
+       .account:hover,
+       .login:hover{
+        background-color: chartreuse;
+        color: yellowgreen;
+       }
+       .account{
+        margin-left: -105px;
+        margin-top: 50px;
+        position: absolute;
+        background-color: red;
+        color: beige;
+       }
+       .catalogue{
+        position: absolute;
+        left:110px;
+        bottom:1px;
+        color:white;
+       }
+       .logo{
+        border-radius: 90px;
+        height: 90px;
+        width: 60px;
+        position: absolute;
+        left:1px;
+        bottom: 0px;
+       }
+       .container{
+        height: 85vh;
+       }
+       .coifh{
+        grid-area: 2/8/4/11;
+       }
+       .coiff{
+        grid-area: 2/1/4/2;
+       }
+       .Apropos{
+        width:30px;
+        margin-left: 10px;
+        height:30px;
+        z-index: 2;
+        background-color: bisque;
+       }
+    </style>
+</head>
+<body background="photos/IMG_0788.JPG">
+    <div class="header">
+        <img src="photos/illustration-beauty-women-and-hair-for-salon-vintage-logo-design-.jpg"class="logo">
+        <a href="catalogue.html" title="Voudirez vous voir plus de photos?" class="catalogue">Voir le Catalogue</a>
+        <h1 class="entete">Salon de Coiffure KEZZYSHONY BEAUTY</h1>
+        <div class="menu">
+    <a href=""> <img src="building.svg" class="home" title="Accuiel"></a>
+    <a href ="menu"> <img src="bell.svg" class="bell" title="Notifications"></a>
+    <a href="Apropos.html"> <img src="registered.svg" class="Apropos" title="Apropos"></a>
+    <input type="button" value="Se Connecter" title="Se connecter a votre Compte Fidelite" class="login">
+    <a href="login.html">
+        <input type="button" value="Cree un compte" title="Cree un compte pour apprecier les offres de notre salon" class="account">
+    </a>
+        </div>
+    </div>
+    <div class="container">
+    <div class="girls">
+        <div class="pic1"><img src="photos/IMG_6625.JPG"></div>
+        <div class="pic2"><img src="photos/IMG_6626.JPG"></div>
+        <div class="infemmes">
+           <u><h2 title="Quelle coifure aimeriez vous medammes?">Coiffures Pour Femmes</h2></u> 
+           <div class="coiff">
+            <h3>Rasta:<b>10000FRANCS</b></h3>
+            <h3>Passe Meches USA: <b>15000FRANCS</b></h3>
+            <h3>Butterfly: <b>17000FRANCS</b></h3>
+            <h3>Breathe Loxe:<b>22000FRANCS</b></h3>
+            <h3>Loxes:<b>20000FRANCS</b></h3>
+            <h3>Curly Breathes:<b>18000FRANCS</b></h3>
+			<h3>pause et caustomisation lace:<b>10000FRANCS</b></h3>
+			<h3>vente de differente perruques pour vous sous reservation.<h3>
+           </div>
+        </div>
+        <div class="titre">
+            <u><h1>Services Offert</h1></u>
+        </div>
+        <div class="pic4"><img src="photos/IMG_0781.JPG"></div>
+        <div class="pic5"><img src="photos/IMG_0782.JPG"></div>
+        <div class="inhommes">
+           <u><h2 title="Quelle coiffure vous feriez plaisir Monsieur?"> Coiffures Pour Hommes</h2></u>
+           <div class="coifh">
+            <h3><b><u>Tresses</u></h3></b>
+            <h3>Retwist + Tresses:<b>7000FRANCS</b></h3>
+            <h3>Retwist + vanilles: <b>8000FRANCS</b></h3>
+            <h3>Reprises Racines Crochet: <b>8000FRANCS</b></h3>
+            <h3>Tresses simple:<b>5000FRANCS</b></h3>
+            <h3><u>Low hair</u></h3>
+            <h3>Tepper US:<b>5000f</b></h3>
+            <h3>Curly level:<b>1500f</b></h3>
+            <h3>Bald:<b>1000f</b></h3>
+        </div>
+        </div>
+        <div class="pic6"><img src="photos/IMG_6627.JPG"></div>
+        <div class="pic7"> <img src="photos/IMG_0783.JPG"></div>
+        
+		</div>
+</div>
+</div>
+<!-- 
+
+           
+          
+          
+           
+          
+          
+-->
+</body>
+<marquee behaavior="alternate"direction="left">&copy;2024 kezzyshony beauty.LA REFERENCE!</marquee>
+</html>

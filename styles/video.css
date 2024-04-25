@@ -1,0 +1,257 @@
+
+    <style>
+.submit_btn{
+    width: 100px;
+    border-radius: 5px;
+    align-items: center;
+    width: 75%;
+    margin-left: 20px;
+}
+.submit{
+    color: black;
+}
+form input{
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.backc{
+    background-image: url('nba-backgrd.jpg');
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    opacity: 0.9;
+}
+form{
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+    width: 450px;
+    padding: 20px;
+    height: 480px;
+    justify-content: space-around;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+.img{
+    width:150px
+}
+.menu{
+    color: black;
+    margin-left: 20px;
+}
+.contact{
+    color: black;
+    margin-left: 20px;
+}
+.faqs{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    margin-right: 200px;
+    opacity: 0.5;
+}
+.Au{
+    margin-left: 20px;
+    color:black;
+}
+.lebron{
+    padding-bottom: 10px;
+    width: 203px;
+    margin-left:130px;
+}
+.logo-op{
+    width: 100px;
+}
+.research:hover{
+    cursor: move;
+}
+.header-cont{
+    height: 150px;
+    border-radius: 100px;
+    background-color: dodgerblue;
+    display: flex;
+}
+.logo-cont{
+    width: 65%;
+    height: 150px;
+    background-color: gold;
+    opacity: 0.8;
+}
+.menu-cont{
+    width: 35%;
+    height:150px;
+    background-color: rgb(207, 218, 218);
+}
+.red:hover{
+    opacity:0.3;
+}
+.red{
+    background-color:red;
+    border-radius: 5px;
+    color:beige;
+    margin-right: 5px;
+    cursor:pointer;
+    font-weight: bold;
+}
+.blue{
+    background-color: azure;
+    color: rgb(0, 47, 255);
+    border-radius:5px;
+    margin-right: 5px;
+    width: 75px;
+    cursor: progress;
+    font-weight: bold;
+}
+.white:hover{
+    background-color: yellowgreen;
+    color: beige;
+    opacity: 0.5;
+}
+.white:active{
+    background-color: blueviolet;
+    cursor: e-resize;
+}
+.white{
+    background-color: rgb(26, 9, 156);
+    color: azure;
+    border-radius: 25px;
+    margin-right: 5px;
+    border-style: solid;
+    border-color: rgb(218, 17, 17);
+    size: 10px;
+    border: none;
+    border-width: 2px;
+    font-weight: bold;
+    height: 30px;
+    cursor: cell;
+}
+.download:hover{
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    width: 100px;
+    cursor: context-menu;
+    font-size: bold;
+    border-width: 10px;
+    
+}
+.purchase:hover{
+    background-color: blue;
+}
+.purchase:active{
+    background-color: rgb(223, 219, 219);
+}
+.purchase{
+    margin-right: 5px;
+    background-color: rgb(228, 173, 36);
+    color: black;
+    width: 100px;
+    border-radius:5px;
+    cursor: pointer;
+}
+.add{
+    margin: 5px;
+    size: 50px;
+    background-color: orangered;
+    color: white;
+    border-color: aqua;
+}
+.add:hover{
+    cursor:cell;
+    background-color: brown;
+}
+.back{
+    margin-right: 5px;
+}
+.next{
+    margin-left: 5px;
+}
+.mjdunk{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+.advert{
+    background-color: red;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    font-size: 17px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.span:hover{
+    background-color: deeppink;
+}
+.logo{
+    width: 150px;
+    margin-left: 500px;
+}
+.mj1{
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.mj2{
+    width: 139px;
+    vertical-align: top;
+    display: inline-block;
+}
+.stats{
+    margin-top: 15px;
+    display:block;
+}
+.first{
+    display:inline-block;
+    width: 30%;
+    
+}
+.second{
+    display: inline-block;
+    margin-right: 600px;
+    width: 30%;
+    
+}
+.shoe{
+    width:300px;
+    display: block;
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.channel-pic{
+    width: 50px;
+
+}
+.video-info{
+
+    width: 200px;
+}
+.profil-pic{
+    width: 40px;
+    border-radius: 30px;
+}
+.profil2-pic{
+    width:50px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.Gencontainer{
+    display: grid;
+    grid-template-columns: 1fr ;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+</style>
